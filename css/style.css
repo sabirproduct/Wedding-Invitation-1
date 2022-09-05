@@ -336,15 +336,15 @@
 }
 
 .sakura {
-	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
-    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
-	background: red;
+	background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
+	/* background: red; */
 	pointer-events: none;
 	position: absolute
 }
 
 .sakura {
-	background: #f30404;
+	background: gold;
 }
 
 
@@ -352,7 +352,9 @@
 
 body {
 	font-family: Arial, Helvetica, Sans-serif;
+	background: #87130c;
 }
+
 
 img {
 	max-width: 100%;
@@ -370,6 +372,9 @@ img {
 	top: 0;
 	right: 0;
 	display: block;
+	transform: rotate(90deg);
+	width: auto;
+	height: auto;
 }
 
 .top-left-decoration {
@@ -377,15 +382,17 @@ img {
 	top: 0;
 	left: 0;
 	display: block;
+	width: auto;
+	height: auto;
 }
 
 .title h1 {
 	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
 	font-style: normal;
-	font-size: 60px;
+	font-size: 40px;
 	margin: 32px 0;
-	color: #674ea7;
+	color: gold;
 }
 
 .title h2 {
@@ -395,7 +402,17 @@ img {
 	margin: 0;
 	padding: 0;
 	font-size: 24px;
-	color: #e25c67;
+	color: #daa520;
+	line-height: 1;
+}
+.title h4 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-style: normal;
+	margin: 5;
+	padding: 1;
+	font-size: 22px;
+	color: #daa520;
 	line-height: 1;
 }
 
@@ -404,17 +421,18 @@ img {
 	font-weight: bolder;
 	font-style: normal;
 	font-size: 32px;
-	color: #674ea7;
+	color: aquamarine;
 	margin: 16px;
 	text-align: center;
 }
 
 .title h3 {
 	font-weight: 300;
+	font-family: 'fantasy';
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 24px;
-	color: #674ea7;
+	color: aquamarine;
 	margin-top: 5px;
 }
 
@@ -435,8 +453,9 @@ img {
 	justify-content: center;
 	-webkit-align-items: center;
 	align-items: center;
-	/* padding: 20px; */
+	padding-left: 5%;
 	text-align: center;
+	position: relative;
 	/* min-height:100%; */
 }
 
@@ -460,6 +479,7 @@ body {
 
 .title {
 	margin-bottom: 40px;
+	margin-top: 50px;
 }
 
 #time {
